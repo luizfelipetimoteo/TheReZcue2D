@@ -6,6 +6,7 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     public static bool EstaComGlock;
+    public static bool EstaComUsp;
     public static bool Vivo;
     private int Speed;
     private int Vida;
@@ -13,6 +14,8 @@ public class Player : MonoBehaviour
     void Start()
     {
         EstaComGlock = false;
+        EstaComUsp = false;
+
         Vida = 100;
         Vivo = true;
         Speed = 3;
